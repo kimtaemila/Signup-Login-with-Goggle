@@ -1,0 +1,141 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    tab-size: 4
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: rgb(13, 241, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-signup-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-signup-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-signup-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.padding {
+    display: flex;
+    padding: 10px 0;
+    align-items: left;
+}
+
+#user-details-wrapper {
+    border: 2px solid lightsteelblue;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.email,
+.avatar,
+#sign-out {
+    margin: auto;
+    display: block;
+}
+
+.avatar {
+    border-radius: 95%;
+}
+
+#button-sign-out {
+    font-family: 'Roboto', arial, sans-serif;
+    display: inline-block;
+    justify-content: center;
+    font-size: 16px;
+    width: 240px;
+    height: 50px;
+    border-radius: 1px;
+    background-color: grey;
+    border: 1px solid transparent;
+    color: #fff;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#button-sign-out:hover {
+    cursor: pointer;
+}
+
+
+#g-sign-in-wrapper {
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    border-radius: 1px;
+    background-color: #4285f4;
+    border: 1px solid transparent;
+    color: #fff;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#g-sign-in-wrapper:hover {
+    cursor: pointer;
+}
+
+.g-icon-wrapper {
+    float: left;
+    width: 18px;
+    height: 20px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1px;
+    margin-right: 16px;
+}
+
+.button-text {
+    display: block;
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .21px;
+    margin: 0 6px 0 6px;
+    line-height: 48px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#button-sign-out-text {
+    display: block;
+    text-align: center;
+}
