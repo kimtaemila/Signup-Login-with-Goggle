@@ -139,3 +139,12 @@ html {
     display: block;
     text-align: center;
 }
+
+.login-btn {
+    display: block;
+    margin: 10px 0;
+    width: 160px;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+}

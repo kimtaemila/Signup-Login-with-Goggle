@@ -137,3 +137,15 @@ var refreshValues = function () {
 
 // Begin app
 appStart()
+
+type = "text/javascript" >
+    AppleID.auth.init({
+        clientId: 'com.techulus.client',
+        scope: 'name email',
+        redirectURI: 'http://techulus.com:4000/callback'
+    });
+
+const buttonElement = document.getElementById('appleid-signin');
+buttonElement.addEventListener('click', () => {
+    AppleID.auth.signIn();
+});
